@@ -1,0 +1,56 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Pastas e arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Credenciais e chaves de API
+key.json
+.env
+improved-readme.md
+
+fluxo-branch.md
+
+# Ambientes virtuais
+env/
+venv/
+.venv/
+
+# Arquivos de log
+*.log
+
+# Dados brutos e processados (evitar commit de grandes conjuntos de dados)
+data/raw/
+data/processed/
+
+# Modelos treinados e artefatos
+models/*.pkl
+
+# Arquivos do Airflow
+airflow.db
+airflow.cfg
+
+# Relatórios e arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Pastas e arquivos relacionados a IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs do Google Cloud
+*.log
+
+# Arquivos de cache
+*.cache
+*.egg-info/
+
+# Arquivos de saída do Looker Studio
+dashboards/looker_studio/*.output
