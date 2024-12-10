@@ -116,7 +116,8 @@ O modelo é detalhado no arquivo `docs/model_documentation.md`, incluindo:
 ### **Passos**
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/your-username/bank-marketing-analytics.git
+   git clone https://github.com/nayyarabernardo/bank-marketing-analytics.git
+
    cd bank-marketing-analytics
    ```
 
@@ -150,7 +151,7 @@ O modelo é detalhado no arquivo `docs/model_documentation.md`, incluindo:
 
 ## **Dashboard**
 
-O dashboard está disponível [aqui](#). Ele apresenta:
+O dashboard está disponível [aqui](https://lookerstudio.google.com/reporting/53ba542b-9439-416a-a2f9-9e5ac1eb7f8f)
 - Insights demográficos sobre clientes.
 - Probabilidades de adesão a depósitos.
 - Comparação de eficácia de campanhas e canais de contato.
@@ -164,5 +165,3 @@ O dashboard está disponível [aqui](#). Ele apresenta:
    - Certifique-se de que o arquivo `key.json` está no diretório correto.
    - Exporte a variável de ambiente novamente.
 
-2. **Dependências não instaladas:**
-   - Execute `pip install -r requirements.txt` para garantir que todos os pacotes estejam instalados.
