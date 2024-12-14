@@ -23,9 +23,13 @@ venv/
 # Arquivos de log
 *.log
 
+#Ignora arquivos de logs gerados durante a execução.
+logs/
+
 # Dados brutos e processados (evitar commit de grandes conjuntos de dados)
-data/raw/
+data/
 data/processed/
+
 
 # Modelos treinados e artefatos
 models/*.pkl
@@ -39,6 +43,7 @@ airflow.cfg
 *.temp
 *.bak
 *.swp
+01.manage_files _GCS _simples.ipynb
 
 # Pastas e arquivos relacionados a IDEs
 .vscode/
