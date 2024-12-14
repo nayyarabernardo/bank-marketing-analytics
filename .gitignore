@@ -27,8 +27,7 @@ venv/
 logs/
 
 # Dados brutos e processados (evitar commit de grandes conjuntos de dados)
-data/
-data/processed/
+
 
 
 # Modelos treinados e artefatos
@@ -44,6 +43,7 @@ airflow.cfg
 *.bak
 *.swp
 01.manage_files _GCS _simples.ipynb
+01.file_to_parket.ipynb
 
 # Pastas e arquivos relacionados a IDEs
 .vscode/
