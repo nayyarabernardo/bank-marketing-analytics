@@ -41,7 +41,7 @@
         },
         {
             "column_name": "order_customer_id",
-            "data_type": "timestamp",
+            "data_type": "DATE",
             "column_position": 3               
         },
         {

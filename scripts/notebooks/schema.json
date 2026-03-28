@@ -33,13 +33,13 @@
             {
                 "name": "order_customer_id",
                 "type": "INTEGER",
-                "mode": "NULLABLE",
+                "mode": "REQUIRED",
                 "description": "ID do cliente que fez o pedido"
             },
             {
                 "name": "order_status",
                 "type": "STRING",
-                "mode": "NULLABLE",
+                "mode": "REQUIRED",
                 "description": "Status atual do pedido (ex: 'em processamento', 'enviado')"
             }
         ],
